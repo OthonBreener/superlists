@@ -1,6 +1,9 @@
-python -m django startproject mysite
+# Sobre o Projeto
 
-## Para executar os códigos pelo Django
+Este código está sendo desenvolvido como forma de estudo
+do livro TDD com Python. 
+
+## Para executar os Tests pelo Django
 
 ```sh
 python manage.py test
