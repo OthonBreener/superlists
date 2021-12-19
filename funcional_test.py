@@ -54,7 +54,8 @@ class NewVisitorTest(unittest.TestCase):
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
         self.assertTrue(
-            any(row.text == '1). Comprar penas de urubu' for row in rows)
+            any(row.text == '1). Comprar penas de urubu' for row in rows),
+            "Item não aparece na tabela"
         )
 
         """
